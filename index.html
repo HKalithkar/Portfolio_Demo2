@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-wrapper">
+        <nav>
+            <div class="picture">
+                <picture>
+                    <img src="./images/profile_picture.jpg" alt="Profile Picture">
+                    <figcaption>Codewell Webster</figcaption>
+                </picture>
+                <h3>MERN Stack Developer</h3>
+            </div>
+            <div class="sections">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="main-wrapper">
+        <div class="main">
+            <div id="home">
+                <h4>Hi, I am</h4>
+                <h3 class="name">Codewell Webster</h3>
+                <p>I am an aspiring Full Stack Developer, who is improving continuosly by creating good projects</p>
+            </div>
+            <div id="about" class="main-section">
+                <h2>About Me</h2>
+                <div class="info">
+                    <p>I am codewell Webster, an aspiring Full Stack Developer (MERN Stack). I have a solid understanding of front-end technoloies, including HTML, CSS, JavaScript and BootStrap frameworks.</p>
+                    <p>
+                        I've done few projects including
+                        <ul>
+                            <li>Intro Section with Dropdown Navigation</li>
+                            <li>Tribute Page (Chhatrapati Shivaji Maharak)</li>
+                            <li>Portfolio-Example (Current)</li>
+                        </ul>
+                    </p>
+                    <p>I am currently immersed in learning Backend Technologies including MERN Stack (MongoDB, Express, ReactJS, and NodeJS)
+                    </p>
+                </div>
+            </div>
+            <div id="education" class="main-section">
+                <h2>Education</h2>
+                <div class="info">
+                    <div>
+                        <p>
+                            I completed by B.Tech in Electronics and Communication Engineering in 2023. I completed my degree in First class. My final year project was "Weather Monitoring Drone".
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            I completed my Intermediate (12th Standard) in 2019. I scored 968 out of 1000 in my intermediate. My JEE Mains score was 97 percentile. My TS EAMCET rank was 1895.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            I completed my 10th Standard in 2017. My CGPA was 9.2 out of 10. My Board was Central Board of Secondary Education.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="skills" class="main-section">
+                <h2>Skills</h2>
+                <div class="info">
+                    <div>HTML</div>
+                    <div>CSS</div>
+                    <div>JavaScript</div>
+                    <div>GitHub</div>
+                    <div>Rest APIs</div>
+                    <div>MongoDB</div>
+                    <div>Express</div>
+                    <div>ReactJS</div>
+                    <div>NodeJS</div>
+                </div>
+            </div>
+            <div id="contact" class="main-section">
+                <h2>Contact Me</h2>
+                <div class="info">
+                    <div class="form">
+                        <form action="/submit">
+                            <div class="name">
+                                <label for="name">Enter your name</label>
+                                <input type="text" name="contact" id="name" required>
+                            </div>
+                            <div class="email">
+                                <label for="email">Enter your email id</label>
+                                <input type="email" name="contact" id="email" required>
+                            </div>
+                            <div class="message">
+                                <label for="message">Message</label>
+                                <textarea name="contact" id="message" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="submit">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
