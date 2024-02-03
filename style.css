@@ -5,15 +5,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Space Mono', monospace;
+    color: white;
 }
 
 p {
     padding: 10px 0;
-}
-
-h2 {
-    margin: 0px auto;
-    text-align: center;
 }
 
 /* Navigation Part */
@@ -21,7 +17,8 @@ h2 {
 .nav-wrapper {
     width: 25vw;
     height: 100vh;
-    background-color: aqua;
+    background-color: black;
+    border-right: 5px solid white;
     position: fixed;
     display: flex;
     justify-content: center;
@@ -84,11 +81,11 @@ nav > div {
     margin: 10px;
     border-radius: 10px;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 .sections li:hover {
-    background-color: aquamarine;
+    background-color: brown;
 }
 
 .sections a {
@@ -97,10 +94,15 @@ nav > div {
     color: black;
 }
 
+.sections a:hover {
+    color: white;
+}
+
 /* Main Part */
 
 .main-wrapper {
     margin-left: 25vw;
+    background-color: rgb(50, 50, 50);
 }
 
 /* Home */
@@ -126,6 +128,19 @@ nav > div {
     align-items: flex-start;
 }
 
+.main h2 {
+    margin: 0px auto;
+    text-align: center;
+}
+
+h2.name {
+    margin: 0;
+}
+
+p.home {
+    font-size: 25px;
+}
+
 .info {
     margin: auto 0;
 }
@@ -144,10 +159,14 @@ nav > div {
 
 #education .info > div {
     max-width: 600px;
-    border: 2px solid black;
+    border: 2px solid white;
     margin: 5px 0;
     padding: 10px;
     border-radius: 20px;
+}
+
+#education .info > div:hover {
+    background-color: black;
 }
 
 #skills .info {
@@ -162,9 +181,13 @@ nav > div {
 }
 
 #skills .info > div {
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 10px;
     border-radius: 20px;
+}
+
+#skills .info > div:hover {
+    background-color: black;
 }
 
 #contact .info {
@@ -182,11 +205,17 @@ nav > div {
 
 .name input, .email input {
     width: 250px;
+    border-radius: 5px;
 }
 
 .submit input {
+    background-color: black;
     cursor: pointer;
     width: 100px;
     height: 50px;
     border-radius: 20px;
+}
+
+.message textarea {
+    border-radius: 5px;
 }
